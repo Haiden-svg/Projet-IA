@@ -29,9 +29,7 @@ class Main:
     for i in range(100):
         route=Route()
         route.ajouter_villes(jean.voyager())
-        route.fitnessReload()
         list.add_route(route)
-
    
    # Creez une fenetre graphique
     graphics = Graphics()

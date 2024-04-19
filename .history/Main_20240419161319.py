@@ -29,7 +29,7 @@ class Main:
     for i in range(100):
         route=Route()
         route.ajouter_villes(jean.voyager())
-        route.fitnessReload()
+        route.fitnessReload(1)
         list.add_route(route)
 
    
