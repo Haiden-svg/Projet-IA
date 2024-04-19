@@ -77,4 +77,4 @@ class ListeRoute:
         self.routes = self.routes[:n]
 
         # Affichez les routes
-        #self.print_routes()
+        self.print_routes()

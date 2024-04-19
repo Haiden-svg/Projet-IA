@@ -29,6 +29,5 @@ class Route:
         self.villes[index1], self.villes[index2] = self.villes[index2], self.villes[index1]
 
     def fitnessReload(self):
-        self.poids = 0
-        for i in range(len(self.villes) - 1):  # s'arrête à l'avant-dernier élément
+        for i in range(len(self.villes)):
             self.poids += self.villes[i].distance_vers(self.villes[i+1])
