@@ -24,8 +24,8 @@ class Main:
     for generation in range(100):
         list.evolutive_list_route(2000)
         meilleure_route = list.routes[0]
-        if generation % 10 == 0: 
-            graphics.update(meilleure_route)
+        if generation 
+        graphics.update(meilleure_route)
 
     list.print_routes()
     graphics.show()

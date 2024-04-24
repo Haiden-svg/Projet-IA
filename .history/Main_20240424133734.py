@@ -21,11 +21,10 @@ class Main:
     graphics = Graphics()
     graphics.draw_cities(france.villes, 'img/ville.png')
     # Boucle d'evolution
-    for generation in range(100):
+    for generation in range(10):
         list.evolutive_list_route(2000)
         meilleure_route = list.routes[0]
-        if generation % 10 == 0: 
-            graphics.update(meilleure_route)
+        graphics.update(meilleure_route)
 
     list.print_routes()
     graphics.show()
